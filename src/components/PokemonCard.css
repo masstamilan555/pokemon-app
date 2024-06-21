@@ -1,0 +1,32 @@
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  .pokemon-card:hover{
+    box-shadow: 1px 2px 30px lightblue;
+  }
+
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .pokemon-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .pokemon-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  .pokemon-card span{
+    font-weight: 700;
+  }
